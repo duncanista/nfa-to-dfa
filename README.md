@@ -3,7 +3,10 @@ Algorithm that converts a Non-deterministic Finite Automata (NFA) to a Determini
 
 ## Run
 
-TBD
+Terminal
+```terminal
+python NFAtoDFA.py
+```
 
 ## Collaborators
 
