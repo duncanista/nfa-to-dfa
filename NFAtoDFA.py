@@ -1,4 +1,10 @@
 # coding: utf-8
+
+'''
+Authors:
+Joaquin Rios Corvera
+Jordan Gonzalez Bustamante
+'''
 import re, os
 from tkinter import *
 from tkinter import filedialog
