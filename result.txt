@@ -1,0 +1,43 @@
+============================================================
+Definición formal del DFA convertido.
+
+N = {Q, E, d, Qo, F} 
+
+Q = { 
+	{}, 
+	{p}, {q}, {r}, {s}, 
+	{p, q}, {p, r}, {p, s}, {q, r}, {q, s}, {r, s}, 
+	{p, q, r}, {p, q, s}, {p, r, s}, {q, r, s}, 
+	{p, q, r, s}
+}
+
+E = {0, 1}
+
+Qo = p
+
+F = { 
+	{s}, 
+	{p, s}, {q, s}, {r, s}, 
+	{p, q, s}, {p, r, s}, {q, r, s}, 
+	{p, q, r, s}
+}
+
+d = { 
+	Q                   0                   1                   
+	{/}                 {/}                 {/}                 
+	{p}                 {p, q}              {p}                 
+	{q}                 {r}                 {r}                 
+	{r}                 {s}                 {/}                 
+	{s}                 {s}                 {s}                 
+	{p, q}              {p, q, r}           {p, r}              
+	{p, r}              {p, q, s}           {p}                 
+	{p, s}              {p, q, s}           {p, s}              
+	{q, r}              {r, s}              {r}                 
+	{q, s}              {r, s}              {r, s}              
+	{r, s}              {s}                 {s}                 
+	{p, q, r}           {p, q, r, s}        {p, r}              
+	{p, q, s}           {p, q, r, s}        {p, r, s}           
+	{p, r, s}           {p, q, s}           {p, s}              
+	{q, r, s}           {r, s}              {r, s}              
+	{p, q, r, s}        {p, q, r, s}        {p, r, s}           
+}
