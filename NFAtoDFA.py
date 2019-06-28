@@ -1,5 +1,5 @@
 # coding: utf-8
-import re
+import re, os
 from tkinter import *
 from tkinter import filedialog
 from collections import defaultdict
@@ -121,12 +121,14 @@ def getNFA(file):
     return re.findall('\(([^)]+)', file)
 
 def getFile():
-    path = filedialog.askopenfilename(filetypes=(("Text files", "*.txt"), ("all files", "*.*")))
-    file = open(path, 'r').read()
+    global path
+    temporal = filedialog.askopenfilename(filetypes=(("Text files", "*.txt"), ("all files", "*.*")))
+    path = os.path.dirname(temporal)
+    file = open(temporal, 'r').read()
     return file
 
 def convert():
-    global app
+    global app, path
     file = getFile()
     nfaInput = getNFA(file)
     getNFAFinal(nfaInput)
@@ -143,7 +145,7 @@ def convert():
     dfaFinal = getDFAFinal(nfaFinal, dfaDelta)
     dfaFormatDelta = formatDelta(dfaDelta)
 
-    new = open('result.txt', 'w+')
+    new = open( path + '/result.txt', 'w+')
     new.write("=" * 60)
     new.write("\nDefinición formal del DFA convertido.\n\nN = {Q, E, d, Qo, F} \n\n")
     new.write("Q = { \n" + formatStates(dfaQ) + "\n}\n\n")
@@ -172,7 +174,7 @@ def main():
     button.grid(pady=5, row=1, column=0)
     app.mainloop()
 
-global app
+global app, path
 main()
 
 

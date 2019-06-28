@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8c6f98d-acb3-48c1-bcfd-797d29921569" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NFAtoDFA.py" afterPath="$PROJECT_DIR$/NFAtoDFA.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,23 +17,21 @@
       <file leaf-file-name="NFAtoDFA.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NFAtoDFA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="175" column="6" lean-forward="false" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
+            <state relative-caret-position="170">
+              <caret line="147" column="25" lean-forward="false" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
               <folding>
-                <element signature="e#16#25#0" expanded="true" />
-                <element signature="e#237#415#0" expanded="false" />
-                <element signature="e#484#600#0" expanded="false" />
-                <element signature="e#659#887#0" expanded="false" />
-                <element signature="e#966#1041#0" expanded="false" />
-                <element signature="e#1112#1430#0" expanded="false" />
-                <element signature="e#1515#2025#0" expanded="false" />
-                <element signature="e#2133#2194#0" expanded="false" />
-                <element signature="e#2330#2486#0" expanded="false" />
-                <element signature="e#2513#2723#0" expanded="false" />
-                <element signature="e#2753#3063#0" expanded="false" />
-                <element signature="e#3087#3123#0" expanded="false" />
-                <element signature="e#3144#3286#0" expanded="false" />
-                <element signature="e#3307#4382#0" expanded="false" />
+                <element signature="e#16#29#0" expanded="true" />
+                <element signature="e#241#419#0" expanded="false" />
+                <element signature="e#488#604#0" expanded="false" />
+                <element signature="e#663#891#0" expanded="false" />
+                <element signature="e#970#1045#0" expanded="false" />
+                <element signature="e#1116#1434#0" expanded="false" />
+                <element signature="e#1519#2029#0" expanded="false" />
+                <element signature="e#2137#2198#0" expanded="false" />
+                <element signature="e#2334#2490#0" expanded="false" />
+                <element signature="e#2517#2727#0" expanded="false" />
+                <element signature="e#2757#3067#0" expanded="false" />
+                <element signature="e#3091#3127#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -44,16 +42,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -184,7 +172,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="23" width="1280" height="712" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16171876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -232,23 +219,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NFAtoDFA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="175" column="6" lean-forward="false" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
+        <state relative-caret-position="170">
+          <caret line="147" column="25" lean-forward="false" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
           <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <element signature="e#237#415#0" expanded="false" />
-            <element signature="e#484#600#0" expanded="false" />
-            <element signature="e#659#887#0" expanded="false" />
-            <element signature="e#966#1041#0" expanded="false" />
-            <element signature="e#1112#1430#0" expanded="false" />
-            <element signature="e#1515#2025#0" expanded="false" />
-            <element signature="e#2133#2194#0" expanded="false" />
-            <element signature="e#2330#2486#0" expanded="false" />
-            <element signature="e#2513#2723#0" expanded="false" />
-            <element signature="e#2753#3063#0" expanded="false" />
-            <element signature="e#3087#3123#0" expanded="false" />
-            <element signature="e#3144#3286#0" expanded="false" />
-            <element signature="e#3307#4382#0" expanded="false" />
+            <element signature="e#16#29#0" expanded="true" />
+            <element signature="e#241#419#0" expanded="false" />
+            <element signature="e#488#604#0" expanded="false" />
+            <element signature="e#663#891#0" expanded="false" />
+            <element signature="e#970#1045#0" expanded="false" />
+            <element signature="e#1116#1434#0" expanded="false" />
+            <element signature="e#1519#2029#0" expanded="false" />
+            <element signature="e#2137#2198#0" expanded="false" />
+            <element signature="e#2334#2490#0" expanded="false" />
+            <element signature="e#2517#2727#0" expanded="false" />
+            <element signature="e#2757#3067#0" expanded="false" />
+            <element signature="e#3091#3127#0" expanded="false" />
           </folding>
         </state>
       </provider>
