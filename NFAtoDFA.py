@@ -154,7 +154,12 @@ def convert():
     new.write("F = { \n" + formatStates(dfaFinal) + "\n}\n\n")
     new.write("d = { \n")
 
-    frmt = '{:20}' + 2 * '{:20}'
+    maxLength = str(len(dfaFormatDelta[-1][0])+6)  #This will be the longest string, will be used for formatting
+    #There will ALWAYS be 6 spaces between columns
+    print(maxLength)
+
+    frmtLen = '{:'+maxLength+'}'
+    frmt = frmtLen + 2 * frmtLen
     for line in dfaFormatDelta:
         new.write("\t" + (frmt.format(*line)) + "\n")
 
